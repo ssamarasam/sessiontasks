@@ -1,0 +1,23 @@
+1. Difference between window and document object?
+
+Window:
+All the things including the tab of the browser is part of window object which is considered as a global one.
+Window object can control the document object.
+
+Document:
+Document is the UI of the web page or the part excluding tab of the browser.
+All the html structure and the styles of it are part of document object.
+Document object cannot control the full window object.
+
+
+Day-1 questions:
+1. Difference between http1.1 and http 2
+
+http1.1 loads the resources one by one 
+where as the http2 loads resources parallely which helps to load multiple resoruces can load at same time.
+
+2. Internal representation of Objects in javascript
+Objects can store all date type values using ' key: "value" ' pairs. All the data related to one can be grouped into object using this feature.
+Object's key and values are iterable.
+Assigning the object copies the 'reference of the object properties instead of copying the values like primitive data types.
+Object values can be modified using '.' notation or by [] notation.

@@ -1,0 +1,15 @@
+.square {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    overflow: scroll;
+
+}
+
+.parent {
+    width: 100%;
+    overflow: scroll;
+    white-space: nowrap;
+
+}

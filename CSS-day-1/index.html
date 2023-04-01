@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Learn CSS</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="circle center" style="background-color:black;" id="circle-1">
+                <p>First circle</p>
+            </div>
+            <div class="rectangle center" style="background-color: yellow;" id="rect-1">
+                <p>First circle</p>
+            </div>
+            <div class="box">
+                <p>This should be in a box</p>
+
+            </div>
+            <div class="circle center" id="circle-2" style="background-color:black;" id="circle-1">
+                <p>First circle</p>
+            </div>
+        </div>
+        <script>
+            setTimeout(() => {
+                const circle = document.getElementById("circle-2");
+                circle.style.background = "red";
+            }, 5000);
+        </script>
+    </body>
+</html>

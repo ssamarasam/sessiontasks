@@ -1,0 +1,144 @@
+<html>
+    <head>
+        <title>Survey Form</title>
+        <style>
+            html,
+            body {
+                margin: 0px auto;
+                max-width: 800px;
+                background-color: #0B2447;
+            }
+            body {
+                background-color: #57C5B6;
+                padding: 10px;
+                border-radius: 10px;
+            }
+            .checked {
+                color: orange;
+            }
+            table, th, td {
+                /* border: 1px solid green; */
+                border-collapse: collapse;
+                
+            }
+            .curve {
+                border-radius: 3px;
+            }
+            td {
+                padding: 5px;
+                text-align: center;
+            }
+            .t-h {
+                text-align: left;
+            }
+            
+            .tab-bg {
+                background-color: rgb(253, 247, 247);
+
+            }
+            .submit {
+                height: 25px;
+                width: 70px;
+            }
+        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <p><b>Fill the survey form</b></p>
+        <form>
+            <label for="name"><b>Name</b></label><br>
+            <input type="text" name="name" placeholder="first-name" id="name" class="curve">
+            <input type="text" name="name" placeholder="last-name" id="name" class="curve">
+            <br>
+            <br>
+            <label for="email"><b>Email</b></label><br>
+            <input type="email" name="email" placeholder="enter email" id="email" class="curve">
+            <br>
+            <br>
+            <label for="experience"><b>Your Experience</b></label>
+            <p>Overall, how do you rate your experince?</p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <br>
+            <br>
+            <table style="width: 100%">
+                <tr>
+                    <td></th>
+                    <td class="t-h">Very Unsatisfied</td>
+                    <td class="t-h">Unsatisfied</td>
+                    <td class="t-h">Neutral</td>
+                    <td class="t-h">Satisfied</td>
+                    <td class="t-h">Very Satisfied</td>
+                </tr>
+                <tr class="tab-bg curve">
+                    <td  class="t-h">Purchase</td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                </tr>
+                <tr>
+                    <td class="t-h">Service</td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                </tr>
+                <tr class="tab-bg">
+                    <td class="t-h">Company Overall</td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                </tr>
+            </table>
+            <br>
+            <p><b>How likely are you to?</b></p>
+            <table style="width: 100%">
+                <tr>
+                    <td></td>
+                    <td>Very Unlikely</td>
+                    <td>Unlikely</td>
+                    <td>Neutral</td>
+                    <td>Likely</td>
+                    <td>Very Likely</td>
+                </tr>
+                <tr class="tab-bg curve">
+                    <td class="t-h">Buy from us again</td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                </tr>
+                <tr>
+                    <td class="t-h">Recommand our products</td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                </tr>
+                <tr class="tab-bg">
+                    <td class="t-h" style="width: 20%">Recommand our company to others</td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                </tr>
+            </table>
+            <br>
+            <label for="addional-comments"><b>Addional comments or suggestions</b></label><br>
+            <textarea id="addional-comments" rows="5" cols="103" class="curve"></textarea><br>
+            <br>
+            <button class="submit" type="submit">Submit</button>
+        </form>
+    </body>
+</html>

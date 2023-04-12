@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            dom learning
+        </title>
+        <style>
+            * {
+                margin: 0px auto;
+                max-width: 600px;
+            }
+
+            div {
+                padding: 30px;
+            }
+
+            .buttons {
+                padding: 10px;
+                border: none;
+                width: 78px;
+            }
+
+            .alert {
+                background-color: green;
+                width: 80px;
+                height: 30px;
+                padding: 10px;
+                border-radius: 5px;
+            }
+            .prompt {
+                background-color: yellow;
+                width: 80px;
+                height: 30px;
+                padding: 10px;
+                border-radius: 5px;
+            }
+            .confirm {
+                background-color: purple;
+                width: 80px;
+                height: 30px;
+                padding: 10px;
+                border-radius: 5px;
+            }
+            .display-name {
+                background-color: rgb(104, 106, 170);
+                width: 120px;
+                height: 30px;
+                /* padding: 30px; */
+                border-radius: 5px;
+                margin-left: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>DOM class 2</h1>
+        <!-- <p>
+            Contents:
+            Window - Common Util functions
+            setTimeout vs setInterval
+            prompt, Alert, confirm
+            working with events
+        </p> -->
+
+        <br><br>
+        <div class="container">
+            <button class="buttons alert" onclick="alertFunction()">Alert</button>
+            <button class="buttons prompt" onclick="promptFunction()">Prompt</button>
+            <button class="buttons confirm" onclick="confirmFunction()">Confirm</button>
+        </div>
+        <br>
+        <button class="display-name" onclick="promptName()">Enter Name</button>
+        <br>
+        <div id="prompt-ele">
+        <br>
+        <button class="counter" onclick="countUp()">Enter Name</button>
+        <br>
+        <div id="display-timer">
+           
+        </div>
+        <script src="./script.js" ></script>
+    </body>
+</html>

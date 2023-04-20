@@ -1,0 +1,12 @@
+Window:
+
+Window is the global object for a browser, under which all the documents like html, css, javascript, declared variables, functions are stored as members
+
+
+Document:
+
+Document is the loaded webpage content which exists as a DOM tree with all nodes of html
+
+
+Screen:
+Screen is an object which has the physical screen dimensions. ALl the height, width are part of screen.
